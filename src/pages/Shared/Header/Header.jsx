@@ -9,7 +9,7 @@ import { FaUserCircle } from 'react-icons/fa'
 const Header = () => {
     const style = { fontSize: "2rem" }
     return (
-        <Container>
+        <Container className='mt-4'>
             <div className='text-center'>
                 <img src={logo} alt="" />
                 <p className='text-secondry'><small>Journalism Without Fear or Favour</small></p>
